@@ -1,3 +1,4 @@
+import { Button } from '@hefty/ui';
 import styles from './app.module.scss';
 
 import { ReactComponent as Logo } from './logo.svg';
@@ -12,6 +13,7 @@ export function App() {
       </header>
       <main>
         <h2>Resources &amp; Tools</h2>
+        <Button type="button" color="primary">Button!</Button>
         <p>Thank you for using and showing some ♥ for Nx.</p>
         <div className="flex github-star-container">
           <a
@@ -31,7 +33,7 @@ export function App() {
         <ul className="resources">
           <li className="col-span-2">
             <a
-              className="resource flex"
+              className="flex resource"
               href="https://egghead.io/playlists/scale-react-development-with-nx-4038"
             >
               Scale React Development with Nx (Course)
@@ -39,14 +41,14 @@ export function App() {
           </li>
           <li className="col-span-2">
             <a
-              className="resource flex"
+              className="flex resource"
               href="https://nx.dev/latest/react/tutorial/01-create-application"
             >
               Interactive tutorial
             </a>
           </li>
           <li className="col-span-2">
-            <a className="resource flex" href="https://nx.app/">
+            <a className="flex resource" href="https://nx.app/">
               <svg
                 width="36"
                 height="36"
